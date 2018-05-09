@@ -10,6 +10,8 @@ body {
   font-family: Roboto;
   font-size: 12px;
   color: #424242;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 h1,
@@ -191,11 +193,12 @@ main {
  */
 
 .hero {
-  width: 100%;
+  width: 80%;
   position: relative;
   background-image: url("./images/dog.jpg");
   background-size: cover;
   height: 300px;
+  order: -1;
 }
 
 .hero article {
@@ -308,6 +311,7 @@ main {
 
 .weather {
   padding: 1em;
+  
 }
 
 .weather__location {
